@@ -15,3 +15,4 @@ sudo ./build
 
 echo "autologin"
 sudo cp -f lightdm.conf /etc/lightdm/lightdm.conf
+sudo cp -f firmware.desktop /etc/xdg/autostart/firmware.desktop
