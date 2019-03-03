@@ -13,3 +13,5 @@ cd WiringOP
 chmod +x ./build
 sudo ./build
 
+echo "autologin"
+sudo cp -f lightdm.conf /etc/lightdm/lightdm.conf
